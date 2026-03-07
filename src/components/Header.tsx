@@ -14,7 +14,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#" className="font-mono text-xl font-bold tracking-tight">
+        <a href="#" className="font-mono text-2xl font-bold tracking-tight">
           <span className="text-accent">c0de</span>man
         </a>
 

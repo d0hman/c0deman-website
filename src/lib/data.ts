@@ -33,6 +33,19 @@ export const apps: App[] = [
     ],
     status: "live",
   },
+  {
+    name: "Product Labels",
+    slug: "product-labels",
+    description:
+      "Free barcode label printing for Shopify. Print labels from orders, product pages, or in bulk with configurable sizes and your own logo.",
+    features: [
+      "Print from orders, products, or bulk",
+      "Label presets (Dymo, Zebra, Avery)",
+      "Custom logo & field configuration",
+      "No external database required",
+    ],
+    status: "live",
+  },
 ];
 
 export interface Service {
@@ -51,7 +64,7 @@ export const services: Service[] = [
   {
     title: "Shopify Store Setup & Configuration",
     description:
-      "Theme customization, third-party integrations, and store optimization to get your shop running at peak performance.",
+      "Theme customization, store configuration, and workflow optimization to get your shop running at peak performance.",
     icon: "store",
   },
   {
