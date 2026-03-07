@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Product Assembly logo</title>
+  <desc id="desc">Black and orange product assembly logo with interlocking isometric blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="80" x2="420" y2="428" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#060606"/>
+      <stop offset="1" stop-color="#191919"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="112" y1="98" x2="400" y2="412" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB36B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="topFace" x1="170" y1="148" x2="338" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFD3A7"/>
+      <stop offset="1" stop-color="#FF9B45"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="50" width="412" height="412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="80" width="352" height="352" rx="88" fill="url(#bg)"/>
+    <rect x="92" y="92" width="328" height="328" rx="76" stroke="url(#edge)" stroke-width="4" stroke-opacity="0.85"/>
+  </g>
+
+  <path d="M163 213L239 169L315 213L239 257L163 213Z" fill="url(#topFace)"/>
+  <path d="M163 213V300L239 344V257L163 213Z" fill="#F97316"/>
+  <path d="M315 213V300L239 344V257L315 213Z" fill="#9F4207"/>
+
+  <path d="M259 157L335 113L411 157L335 201L259 157Z" fill="#FFE2C0"/>
+  <path d="M259 157V244L335 288V201L259 157Z" fill="#FF8C31"/>
+  <path d="M411 157V244L335 288V201L411 157Z" fill="#A54609"/>
+
+  <path d="M101 281L177 237L253 281L177 325L101 281Z" fill="#FFE2C0"/>
+  <path d="M101 281V368L177 412V325L101 281Z" fill="#FF8C31"/>
+  <path d="M253 281V368L177 412V325L253 281Z" fill="#A54609"/>
+
+  <path d="M300 248L334 268" stroke="#FFF0DD" stroke-width="10" stroke-linecap="round"/>
+  <path d="M178 237L211 219" stroke="#FFF0DD" stroke-width="10" stroke-linecap="round"/>
+  <path d="M239 344V381" stroke="#FFF0DD" stroke-width="10" stroke-linecap="round"/>
+
+  <circle cx="334" cy="268" r="18" fill="#FFF0DD"/>
+  <circle cx="211" cy="219" r="18" fill="#FFF0DD"/>
+  <circle cx="239" cy="381" r="18" fill="#FFF0DD"/>
+</svg>

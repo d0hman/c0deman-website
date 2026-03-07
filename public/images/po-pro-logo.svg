@@ -1,0 +1,38 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">PO Pro logo</title>
+  <desc id="desc">Black and orange purchase order logo with document geometry and a status check accent.</desc>
+  <defs>
+    <linearGradient id="bg" x1="92" y1="76" x2="420" y2="432" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="110" y1="98" x2="402" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB066"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="164" y1="124" x2="344" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFC78B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="shadow" x="50" y="50" width="412" height="412" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="80" y="80" width="352" height="352" rx="88" fill="url(#bg)"/>
+    <rect x="92" y="92" width="328" height="328" rx="76" stroke="url(#edge)" stroke-width="4" stroke-opacity="0.85"/>
+  </g>
+
+  <path d="M168 156C168 145.507 176.507 137 187 137H285.088C290.392 137 295.479 139.107 299.229 142.857L338.143 181.771C341.893 185.521 344 190.608 344 195.912V321C344 331.493 335.493 340 325 340H187C176.507 340 168 331.493 168 321V156Z" fill="#0B0B0B"/>
+  <path d="M286 138V183C286 193.493 294.507 202 305 202H350" stroke="url(#glow)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M204 222H303" stroke="#2C2C2C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M204 258H303" stroke="#2C2C2C" stroke-width="14" stroke-linecap="round"/>
+  <path d="M204 294H258" stroke="#2C2C2C" stroke-width="14" stroke-linecap="round"/>
+
+  <circle cx="312" cy="309" r="54" fill="#131313" stroke="url(#edge)" stroke-width="10"/>
+  <path d="M288 309L303 324L336 291" stroke="url(#glow)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M151 389V223H211.548C242.378 223 262 241.792 262 270.912C262 300.032 242.378 318.824 211.548 318.824H184.42V389H151ZM184.42 292.588H207.732C221.669 292.588 229.24 285.562 229.24 270.912C229.24 256.262 221.669 249.236 207.732 249.236H184.42V292.588Z" fill="#FFF5EC"/>
+  <path d="M273.228 389V223H337.364C370.436 223 393 245.164 393 305.68C393 366.196 370.436 389 337.364 389H273.228ZM306.648 362.284H333.06C350.632 362.284 359.58 348.272 359.58 305.68C359.58 263.088 350.632 249.716 333.06 249.716H306.648V362.284Z" fill="#FFF5EC"/>
+</svg>
