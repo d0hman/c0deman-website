@@ -1,6 +1,7 @@
 export interface App {
   name: string;
   slug: string;
+  logo: string;
   description: string;
   features: string[];
   status: "live" | "coming-soon";
@@ -10,6 +11,7 @@ export const apps: App[] = [
   {
     name: "PO Pro",
     slug: "po-pro",
+    logo: "/images/po-pro-logo.svg",
     description:
       "Streamlined purchase order management for Shopify merchants. Create, track, and receive purchase orders directly in your admin.",
     features: [
@@ -23,6 +25,7 @@ export const apps: App[] = [
   {
     name: "Product Assembly",
     slug: "product-assembly",
+    logo: "/images/product-assembly-logo.svg",
     description:
       "Manage composite products with parent-component relationships. Automate inventory for building and disassembling kitted products.",
     features: [
@@ -36,6 +39,7 @@ export const apps: App[] = [
   {
     name: "Product Labels",
     slug: "product-labels",
+    logo: "/images/product-labels-logo.svg",
     description:
       "Free barcode label printing for Shopify. Print labels from orders, product pages, or in bulk with configurable sizes and your own logo.",
     features: [

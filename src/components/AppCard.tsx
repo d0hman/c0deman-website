@@ -1,9 +1,9 @@
+import Image from "next/image";
 import type { App } from "@/lib/data";
 
 export default function AppCard({ app }: { app: App }) {
   return (
     <div className="group rounded-xl border border-card-border bg-card-bg transition-all duration-300 hover:scale-[1.02] hover:border-accent/50 hover:shadow-[0_0_40px_rgba(249,115,22,0.12)]">
-      {/* Placeholder visual */}
       <div className="relative flex h-48 items-center justify-center overflow-hidden rounded-t-xl bg-[#0e0e0e]">
         <div
           className="absolute inset-0 opacity-[0.06]"
@@ -13,9 +13,13 @@ export default function AppCard({ app }: { app: App }) {
             backgroundSize: "24px 24px",
           }}
         />
-        <span className="relative z-10 font-mono text-3xl font-bold text-white/10 transition-colors group-hover:text-accent/20">
-          {app.name}
-        </span>
+        <Image
+          src={app.logo}
+          alt={`${app.name} logo`}
+          width={96}
+          height={96}
+          className="relative z-10"
+        />
       </div>
 
       <div className="p-8">
