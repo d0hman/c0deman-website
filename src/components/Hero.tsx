@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-[80vh] flex-col items-center justify-center overflow-hidden px-6 text-center"
+      className="relative flex min-h-[70vh] flex-col items-center justify-center overflow-hidden px-6 text-center"
     >
       {/* Animated grid background */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">

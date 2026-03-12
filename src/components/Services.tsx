@@ -21,7 +21,7 @@ const icons: Record<string, React.ReactNode> = {
 
 export default function Services() {
   return (
-    <section id="services" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="services" className="mx-auto max-w-6xl px-6 py-14">
       <FadeIn>
         <h2 className="mb-4 text-center font-mono text-3xl font-bold md:text-4xl">
           <span className="text-accent">Services</span>

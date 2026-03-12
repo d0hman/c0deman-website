@@ -3,7 +3,7 @@ import ContactForm from "./ContactForm";
 
 export default function Contact() {
   return (
-    <section id="contact" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="contact" className="mx-auto max-w-6xl px-6 py-14">
       <FadeIn>
         <div className="relative overflow-hidden rounded-2xl p-px">
           {/* Animated gradient border */}

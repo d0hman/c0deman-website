@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { App } from "@/lib/data";
 
 export default function AppCard({ app }: { app: App }) {
@@ -13,13 +12,10 @@ export default function AppCard({ app }: { app: App }) {
             backgroundSize: "24px 24px",
           }}
         />
-        <Image
-          src={app.logo}
-          alt={`${app.name} logo`}
-          width={96}
-          height={96}
-          className="relative z-10"
-        />
+        {/* TODO: Replace with custom logos from Photoshop */}
+        <span className="relative z-10 font-mono text-2xl font-bold text-accent/60">
+          {app.name}
+        </span>
       </div>
 
       <div className="p-8">

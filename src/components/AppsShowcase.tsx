@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 
 export default function AppsShowcase() {
   return (
-    <section id="apps" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="apps" className="mx-auto max-w-6xl px-6 py-14">
       <FadeIn>
         <h2 className="mb-4 text-center font-mono text-3xl font-bold md:text-4xl">
           Our <span className="text-accent">Apps</span>
