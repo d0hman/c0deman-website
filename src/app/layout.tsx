@@ -15,15 +15,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://c0deman.com"),
   title: "c0deman | Shopify App Development",
   description:
     "Custom Shopify apps and development services. We build apps that solve real problems for Shopify merchants.",
+  keywords: [
+    "Shopify apps",
+    "Shopify development",
+    "custom Shopify apps",
+    "c0deman",
+  ],
   openGraph: {
     title: "c0deman | Shopify App Development",
     description:
-      "Custom Shopify apps and development services for merchants.",
+      "Custom Shopify apps and development services. We build apps that solve real problems for Shopify merchants.",
     type: "website",
     url: "https://c0deman.com",
+    siteName: "c0deman",
+  },
+  twitter: {
+    card: "summary",
+    title: "c0deman | Shopify App Development",
+    description:
+      "Custom Shopify apps and development services. We build apps that solve real problems for Shopify merchants.",
+  },
+  alternates: {
+    canonical: "https://c0deman.com",
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 
